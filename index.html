@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap library -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- fontaweasome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- media query -->
+    <link rel="stylesheet" href="css/media.css">
+    <title>My Login</title>
+</head>
+<body class="text-white">
+
+    <!-- main body -->
+    <section>
+        <div class="container d-flex flex-column align-items-center text-center rounded-1 my-5">
+            <div class="row">
+                <div class="col-12 ">
+                    <h1 class="my-3 text-capitalize text-info">Smart Login System</h1>
+                    <input type="email" class="form-control my-3 text-white" placeholder="Enter Your Email" id="Email">
+                    <input type="password" class="form-control text-white" placeholder="Enter Your Password" id="Pass">
+
+                    <p class="d-none text-danger text-capitalize my-3">all inputs are required</p>
+                    <p class="d-none text-danger my-3">Incorrect Email or Password</p>
+
+                    <button class="my-3 btn btn-outline-info w-100" onclick="logIn()">Log In</button>
+                    <p class="my-3 ">Don’t have an account? <a href="signup.html" class="text-decoration-none text-info">Sign Up</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- js bootstrap link -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- main JS file -->
+    <script src="js/main.js"></script>
+</body>
+</html>

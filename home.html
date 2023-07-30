@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap library -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- fontaweasome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- media query -->
+    <link rel="stylesheet" href="css/media.css">
+    <title>Welcome</title>
+</head>
+<body class="text-white">
+
+    <!-- main body -->
+
+    <!-- navbar -->
+    <section class="navforshadow">
+        <nav class="navbar navbar-expand-lg w-75 m-auto">
+            <div class="container-fluid">
+            <a class="navbar-brand text-uppercase text-white" href="#">Smart Login</a>
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <button class="logout-btn btn btn-outline-warning ms-auto my-3" onclick="logOut()">Logout</button>
+            </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- welcome box -->
+    <div class="container welcome w-50 text-center rounded-1 my-5">
+        <div class="row p-5">
+            <div class="col-12 ">
+                <div class="welcome-box">
+                    <h1 class="my-3 text-capitalize text-info">Welcome <span>name</span></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- js bootstrap link -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- main JS file -->
+    <script src="js/main.js"></script>
+</body>
+</html>

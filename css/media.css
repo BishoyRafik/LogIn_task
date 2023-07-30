@@ -1,0 +1,31 @@
+/* iPhone SE */
+@media (max-width:599px) {
+    .logout-btn{
+        width: 100%;
+    }
+}
+/* extra small screens test */
+@media (min-width: 600px){
+    .logout-btn{
+        width: 100%;
+    }
+}
+
+/* small screens */
+@media (min-width: 769px){
+    .logout-btn{
+        width: 100%;
+    }
+}
+
+/* medium screen */
+@media (min-width: 992px){
+    .logout-btn{
+        width: 15%;
+    }
+}
+
+/* large screen */
+@media (min-width: 1201px){
+
+}

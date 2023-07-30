@@ -1,0 +1,31 @@
+body,body .navbar{
+    background-color: #24353F;
+    color: white;
+}
+
+.navbar-toggler{
+    color: transparent;
+}
+
+.container,.navforshadow{
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.7);
+}
+
+section .row .col-12 input{
+    background-color: transparent;
+    color: white;
+}
+section .row .col-12 input::placeholder{
+    color: white;
+}
+
+.welcome{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
